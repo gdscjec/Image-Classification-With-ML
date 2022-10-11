@@ -8,5 +8,6 @@ np.set_printoptions(linewidth = 200)
 # Loading DataSet
 (x_train, y_train),(x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
-
+# better output format
+np.set_printoptions(linewidth = 200)
 
